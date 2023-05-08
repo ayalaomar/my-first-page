@@ -1,0 +1,164 @@
+section {
+    padding: 40px;
+    background-color: #8EBC99;
+    border-bottom: 1px solid #ccc;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  #contacto {
+    padding: 50px;
+    background-color: #AEC6CF;
+  }
+  
+  #habilidades {
+    padding: 50px;
+    background-color: #D2B4DE;
+  }
+
+  #habilidades {
+    padding: 50px;
+    background-color: #D2B4DE;
+  }
+
+  #title {
+    padding: 50px;
+    background-color: #D3D3D3;
+  }
+
+  
+
+  
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 992px) {
+    /* Estilos para el encabezado */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    /* Estilos para la sección Acerca de */
+    #acerca-de {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+    #acerca-de .descripcion {
+      width: 60%;
+    }
+    /* Estilos para la sección Habilidades */
+    #habilidades {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+    #habilidades .habilidad {
+      width: 30%;
+    }
+    /* Estilos para la sección Portafolio */
+    #portafolio {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+    #portafolio .proyecto {
+      width: 30%;
+    }
+    /* Estilos para el pie de página */
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    /* Estilos para el encabezado */
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    /* Estilos para la sección Acerca de */
+    #acerca-de {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+    }
+    #acerca-de .descripcion {
+      width: 80%;
+    }
+    /* Estilos para la sección Habilidades */
+    #habilidades {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+    }
+    #habilidades .habilidad {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+    /* Estilos para la sección Portafolio */
+    #portafolio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+    }
+    #portafolio .proyecto {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+    /* Estilos para el pie de página */
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 767px) {
+    /* Estilos para el encabezado */
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    header img {
+      margin-bottom: 20px;
+    }
+    /* Estilos para la sección Acerca de */
+    #acerca-de {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+    }  
+}
