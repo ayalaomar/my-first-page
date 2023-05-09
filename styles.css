@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 section {
     padding: 40px;
     background-color: #8EBC99;
     border-bottom: 1px solid #ccc;
+    text-align: center;
   }
 
-  img {
+   img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   section h2 {
@@ -18,6 +28,25 @@ section {
   section p {
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  p {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family:poppins,sans-serif;
+    font-size: 35px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  li {
+    margin: 0 10px;
   }
 
   #contacto {
@@ -38,11 +67,18 @@ section {
   #title {
     padding: 50px;
     background-color: #D3D3D3;
+    text-align: center;
   }
 
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
-
-  
+  .social-icons a {
+    margin: 0 10px;
+  }
 
 /* Estilos para pantallas grandes */
 @media screen and (min-width: 992px) {
